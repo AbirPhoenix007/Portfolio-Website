@@ -1,0 +1,208 @@
+.bg-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1797px;
+    height: 1083px;
+    object-fit: cover;
+  }
+  .contact-us-child {
+    position: absolute;
+    top: 1246.77px;
+    left: -107.15px;
+    background-color: var(--color-white);
+    width: 1780.34px;
+    height: 625.87px;
+    transform: rotate(-25deg);
+    transform-origin: 0 0;
+  }
+  .send-us-a {
+    position: relative;
+    letter-spacing: 0.05em;
+    line-height: 150%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    z-index: 0;
+  }
+  .name-child {
+    position: relative;
+    width: 501.5px;
+    height: 1.5px;
+  }
+  .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    border-bottom: 2px solid #FFCFA6;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  .phone-optional {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 366px;
+    height: 23px;
+    flex-shrink: 0;
+  }
+  .message1,
+  .phone {
+    position: absolute;
+    left: 0;
+    display: flex;
+  }
+  .phone {
+    top: 186px;
+    border-bottom: 2px solid #FFCFA6;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  .message1 {
+    top: 0;
+    line-height: 150%;
+    font-weight: 500;
+    align-items: center;
+    width: 366px;
+    height: 23px;
+  }
+  .message-child {
+    position: absolute;
+    border-bottom: 2px solid #FFCFA6;
+    top: 28.25px;
+    left: -0.75px;
+    width: 501.5px;
+    height: 1.5px;
+  }
+  .email,
+  .message {
+    position: absolute;
+    left: 0;
+  }
+  .message {
+    top: 279px;
+    width: 500px;
+    height: 29px;
+  }
+  .email {
+    top: 93px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #FFCFA6;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  .name-parent {
+    position: relative;
+    width: 500px;
+    height: 308px;
+    z-index: 1;
+    text-align: left;
+    font-size: var(--font-size-3xl);
+    color: var(--color-lightgray);
+  }
+  .submit {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: white;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-13xl);
+
+  }
+  .send-us-a-message-parent,
+  .submit-wrapper {
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .submit-wrapper {
+    margin: 0 !important;
+    top: 619px;
+    left: calc(50% - 250px);
+    border-radius: 44px;
+    background: linear-gradient(-55.84deg, #ffa14d, #ff7b1b);
+    width: 500px;
+    height: 70px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 179px;
+    z-index: 2;
+    color: var(--color-white);
+  }
+  .send-us-a-message-parent {
+    top: calc(50% - 372px);
+    left: 700px;
+    border-radius: 36px;
+    background-color: var(--color-white);
+    box-shadow: 3px 6px 37.7px rgba(0, 0, 0, 0.2);
+    width: 640px;
+    height: 744px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 57px 60px;
+    gap: 102px;
+  }
+  .contact-us1,
+  .if-you-have {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .contact-us1 {
+    top: 0;
+    left: calc(50% - 236px);
+    line-height: 150%;
+    text-transform: capitalize;
+    width: 430px;
+    height: 52px;
+    text-shadow: 0 5px 10.6px rgba(0, 0, 0, 0.25);
+  }
+  .if-you-have {
+    top: 107px;
+    left: 0;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    line-height: 120%;
+    font-weight: 600;
+    width: 472px;
+  }
+  .contact-us-parent {
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 620px);
+    width: 472px;
+    height: 194px;
+    text-align: left;
+    font-size: 72px;
+    color: var(--color-white);
+  }
+  .contact-us {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    color: #3a3a3a;
+    font-family: var(--font-montserrat);
+  }
+  input {border:0;outline:0;}
+input:focus {outline:none!important;}

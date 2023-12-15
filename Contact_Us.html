@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Contact_Us.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact-us">
+      <img class="bg-1-icon" alt="" src="./public/bg.png" />
+      <div class="contact-us-child"></div>
+      <div class="send-us-a-message-parent">
+        <div class="send-us-a">Send Us A Message</div>
+        <form id="contactForm" onsubmit="submitForm(event)">
+          <div class="name-parent">
+            <div class="name">
+              <div class="phone-optional">Name</div>
+              <input type="text" id="name" required />
+              <img class="name-child" alt="" />
+            </div>
+            <div class="phone">
+              <div class="phone-optional">Phone (Optional)</div>
+              <input type="tel" id="phone" />
+              <img class="name-child" alt="" />
+            </div>
+            <div class="message">
+              <div class="message1">Message</div>
+              <input type="text" id="message" required></input>
+              <img class="message-child" alt="" />
+            </div>
+            <div class="email">
+              <div class="phone-optional">E-mail</div>
+              <input type="email" id="email" required />
+              <img class="name-child" alt="" />
+            </div>
+          </div>
+          <div class="submit-wrapper">
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="contact-us-parent">
+        <b class="contact-us1">Contact Us</b>
+        <div class="if-you-have">
+          If you have any questions, please do not hesitate to contact us. We would be happy to hear from you.
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function submitForm(event) {
+        event.preventDefault();
+        // Your form submission logic here
+      }
+    </script>
+  </body>
+</html>
